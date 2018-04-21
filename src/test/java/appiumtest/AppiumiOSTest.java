@@ -21,7 +21,7 @@ public class AppiumiOSTest {
 		caps.setCapability("platformName", "iOS");
 		caps.setCapability("platformVersion", "11.3"); //Replace this with your iOS version
 		caps.setCapability("deviceName", "iPhone X"); //Replace this with your simulator/device version
-		caps.setCapability("app", "/Users/chanyadeshani/Downloads/UICatalog.app"); //Replace this with app path in your system
+		caps.setCapability("app", "/Users/chanyadeshani/workspace/appium-test/UICatalog.app"); //Replace this with app path in your system
 		caps.setCapability("automationName", "XCUITest");
 		driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
 	}
